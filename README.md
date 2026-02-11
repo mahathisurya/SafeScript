@@ -479,9 +479,9 @@ Built to demonstrate advanced software engineering capabilities including:
 - Professional documentation
 
 **Connect:**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
+- GitHub: [[@yourusername](https://github.com/yourusername)](https://github.com/mahathisurya)
+- Email: ssuryad6@ncsu.edu
+- LinkedIn: [[Your Name](https://linkedin.com/in/yourprofile)](https://www.linkedin.com/in/mahathisurya)
 
 ---
 
