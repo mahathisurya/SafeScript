@@ -1,0 +1,7 @@
+# EthicaLang - Production Dependencies
+# This project has ZERO external runtime dependencies!
+# Pure Python implementation demonstrating deep CS fundamentals.
+
+# Development Dependencies (optional)
+pytest>=7.0.0
+pytest-cov>=3.0.0

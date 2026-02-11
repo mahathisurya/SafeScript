@@ -1,0 +1,26 @@
+# Example: Fibonacci Sequence (Good)
+# Demonstrates proper function design
+
+function calculate_fibonacci(count):
+    if count <= 0:
+        return []
+    if count == 1:
+        return [0]
+    
+    sequence = [0, 1]
+    current_index = 2
+    
+    while current_index < count:
+        previous_value = sequence[current_index - 1]
+        before_previous = sequence[current_index - 2]
+        next_value = previous_value + before_previous
+        sequence = sequence + [next_value]
+        current_index = current_index + 1
+    
+    return sequence
+
+# Generate first 10 Fibonacci numbers
+fibonacci_count = 10
+fibonacci_sequence = calculate_fibonacci(fibonacci_count)
+print("First", fibonacci_count, "Fibonacci numbers:")
+print(fibonacci_sequence)

@@ -1,0 +1,17 @@
+# Bad Example: Overly Clever Code
+# This will FAIL cleverness detection
+
+function calculate_result(x, y, z):
+    # Overly complex one-liner expression
+    return ((x + y) * (z - x) + (y * z)) / ((x + z) - (y - x) * 2 + 42)
+
+function process_data(value):
+    # Magic number without explanation
+    adjusted = value * 3.14159265 + 1337 - 42
+    return adjusted
+
+# Dense expression
+input_value = 10
+final = calculate_result(input_value, input_value + 5, input_value * 2)
+processed = process_data(final)
+print("Result:", processed)

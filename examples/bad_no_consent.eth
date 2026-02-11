@@ -1,0 +1,13 @@
+# Bad Example: Missing Consent Annotation
+# This will FAIL ethics check
+
+# ERROR: Missing @requires_user_consent annotation
+function collect_location(user_id):
+    print("Collecting location...")
+    latitude = 37.7749
+    longitude = -122.4194
+    return latitude
+
+user_identifier = 12345
+location = collect_location(user_identifier)
+print("Location:", location)

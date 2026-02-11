@@ -1,0 +1,17 @@
+# Bad Example: Energy Expensive Code
+# This will FAIL energy budget check
+
+function inefficient_search(target):
+    result_list = []
+    # Triple nested loops - very expensive!
+    for i in range(100):
+        for j in range(100):
+            for k in range(100):
+                value = i + j + k
+                if value == target:
+                    result_list = result_list + [value]
+    return result_list
+
+# This is computationally expensive
+found = inefficient_search(150)
+print("Found:", found)

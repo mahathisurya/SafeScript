@@ -1,0 +1,25 @@
+# Good Example: Ethical Data Collection
+# Shows proper use of consent annotations
+
+@requires_user_consent
+function collect_location(user_id):
+    print("Requesting location permission from user:", user_id)
+    # Simulated location collection
+    latitude = 37.7749
+    longitude = -122.4194
+    location_data = {"lat": latitude, "lon": longitude}
+    return location_data
+
+@requires_data_protection
+function store_user_info(user_data):
+    print("Storing user information securely")
+    # Simulated secure storage
+    return true
+
+# Main
+user_identifier = 12345
+print("Starting ethical data collection...")
+location = collect_location(user_identifier)
+print("Location collected:", location)
+storage_result = store_user_info(location)
+print("Data stored successfully")

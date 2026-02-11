@@ -1,0 +1,21 @@
+# Bad Example: Poor Readability
+# This will FAIL readability check
+
+function f(x):
+    # Single letter function name
+    # Short variable names
+    # Complex nested logic
+    if x > 0:
+        if x < 10:
+            if x % 2 == 0:
+                if x > 5:
+                    a = x * 2
+                    b = a + 3
+                    c = b - 1
+                    return c
+    return 0
+
+# More poor naming
+tmp = f(8)
+val = tmp + 1
+print(val)

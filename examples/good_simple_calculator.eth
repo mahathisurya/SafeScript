@@ -1,0 +1,20 @@
+# Good Example: Simple Calculator
+# This program demonstrates clean, efficient code
+
+function add_two_numbers(first_number, second_number):
+    result = first_number + second_number
+    return result
+
+function multiply_two_numbers(first_number, second_number):
+    result = first_number * second_number
+    return result
+
+# Main execution
+num_a = 10
+num_b = 5
+
+sum_result = add_two_numbers(num_a, num_b)
+product_result = multiply_two_numbers(num_a, num_b)
+
+print("Sum:", sum_result)
+print("Product:", product_result)

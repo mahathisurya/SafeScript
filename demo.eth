@@ -1,0 +1,19 @@
+# Simple Demo Program
+
+function greet(name):
+    message = "Hello, " + name + "!"
+    return message
+
+function calculate_sum(a, b):
+    result = a + b
+    return result
+
+# Main execution
+greeting = greet("World")
+print(greeting)
+
+sum_value = calculate_sum(10, 20)
+print("Sum:", sum_value)
+
+numbers = [1, 2, 3]
+print("Numbers:", numbers)
